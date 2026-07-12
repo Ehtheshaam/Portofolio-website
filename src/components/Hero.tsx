@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion";
+import { motion, type Transition } from "framer-motion";
 import { ArrowUpRight, Download } from "lucide-react";
 
 export function Hero() {
@@ -17,7 +17,7 @@ export function Hero() {
     }
   };
 
-  const easing = [0.16, 1, 0.3, 1]; // Apple-like smooth easing
+  const easing: Transition["ease"] = [0.16, 1, 0.3, 1];
 
   return (
     <motion.section
