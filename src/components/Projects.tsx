@@ -150,7 +150,7 @@ export function Projects() {
       ],
       techStack: ["Python", "Scikit-learn", "Flask", "React", "Tailwind CSS", "GSAP"],
       imageSrc: "/voga.png",
-      liveUrl: "https://voga-recommend.onrender.com",
+      liveUrl: "https://product-recommendation-five.vercel.app/",
       githubUrl: "https://github.com/Ehtheshaam/VOGA",
       isReversed: false,
     },
